@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profession_Management_System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    New Employees
+  </header>
+
+  <div class="form_container">
+    <form id="infoForm" action="#" method="post" novalidate>
+      <div class="form_fields">
+        <div class="field">
+        <label for="name">Enter name</label>
+        <input
+          id="name"
+          name="name"
+          type="text"
+          placeholder="Enter Name"
+          autocomplete="name"
+          required
+        />
+        </div>
+
+        <div class="field">
+          <label for="profession">Enter profession</label>
+          <input
+            id="profession"
+            name="profession"
+            type="text"
+            placeholder="Enter Profession"
+            autocomplete="organization-title"
+            required
+          />
+        </div>
+
+        <div class="field">
+          <label for="age">Enter age</label>
+          <input
+            id="age"
+            name="age"
+            type="number"
+            placeholder="Enter Age"
+            min="0"
+            max="120"
+            inputmode="numeric"
+            required
+          />
+        </div>
+      </div>
+
+      <div>
+        <button class="btn" type="submit">Add User</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

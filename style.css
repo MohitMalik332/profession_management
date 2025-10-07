@@ -1,0 +1,61 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+body{
+  background-color: black;
+}
+
+header{
+  padding: 40px 40px;
+  font-size: 25px;
+}
+
+.label{
+  color: white;
+}
+
+input {
+  height: 30px;
+  background-color: black;
+  border: 1px solid white;
+  margin-top: 10px;
+}
+
+::placeholder {
+  padding-left: 10px;
+}
+
+.field{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.form_fields{
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form_container{
+  width: 100vw;
+}
+
+.btn{
+  color: black;
+  background-color: white;
+  width: 100px;
+  height: 35px;
+  margin-top: 20px;
+  border-radius: 5px;
+  position: relative;
+  top: 10px;
+  left: 50px;
+}
