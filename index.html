@@ -12,7 +12,7 @@
   </header>
 
   <div class="form_container">
-    <form id="infoForm" action="#" method="post" novalidate>
+    <form id="infoForm" action="" novalidate>
       <div class="form_fields">
         <div class="field">
         <label for="name">Enter name</label>
@@ -54,9 +54,18 @@
       </div>
 
       <div>
-        <button class="btn" type="submit">Add User</button>
+        <button class="btn" type="button" onclick="addUser()">Add User</button>
       </div>
     </form>
   </div>
+
+  <div class="message" id="messageBox"> </div>
+  
+
+  <div class="output-container" id="outputContainer">
+    <h3 class="output_heading">Added Employees:</h3>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
